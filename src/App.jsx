@@ -86,8 +86,8 @@ class App extends React.Component {
 				<div id='time-left' className='fs-3'><Timer session={this.state.session} /></div>
 				<br />
 				<div className="btn-group" role="group">
-					<button className={'btn btn-outline-' + this.state.pausecolor} id='start_stop' onClick={() => this.handleClick('pause')}><i className={'bi bi-' + this.state.pauseicon}></i></button>
-					<button className='btn btn-outline-secondary' id='reset' onClick={() => this.handleClick('reset')}><i className="bi bi-arrow-clockwise"></i></button>
+					<button className={'btn btn-outline-' + this.state.pausecolor} id='start_stop' onClick={() => this.handleClick('pause')} data-bs-toggle="tooltip" data-bs-title="Toggle pause or play"><i className={'bi bi-' + this.state.pauseicon}></i></button>
+					<button className='btn btn-outline-secondary' id='reset' onClick={() => this.handleClick('reset')} data-bs-toggle="tooltip" data-bs-title="Reset timer"><i className="bi bi-arrow-clockwise"></i></button>
 				</div>
 			</>
 		)
