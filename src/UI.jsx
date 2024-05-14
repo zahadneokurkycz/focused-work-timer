@@ -16,10 +16,18 @@ class UI extends React.Component {
 						Focused work timer
 					</div>
   					<div className='card-body'>
-						<App />
-						<audio id='beep'>
-							<source src='beep.mp3' type='audio/mpeg' />
-						</audio>
+					  	<div className='d-none d-md-block'>
+							<App />
+							<audio id='beep'>
+								<source src='beep.mp3' type='audio/mpeg' />
+							</audio>
+						</div>
+						<div className='d-none d-sm-block d-md-none text-wrap'>
+							We currently don't support mobiles. Please come back on a larger device such as tablet or PC
+						</div>
+						<div className='d-block d-sm-none text-wrap'>
+							We currently don't support mobiles. Please come back on a larger device such as tablet or PC
+						</div>
 					</div>
 				</div>
 			</div>
@@ -87,6 +95,20 @@ class Theme extends React.Component {
 	}
 }
 
+class Github extends React.Component {
+	constructor() {
+		super();
+	}
+
+	render() {
+		return(
+			<div className='position-absolute bottom-0 start-0 p-3'>
+				<a href='https://github.com/zahadneokurkycz/focused-work-timer' className=' btn btn-dark' data-bs-toggle="tooltip" data-bs-title="See the source code on Github" target='_blank'><i className="bi bi-github"></i> Source code</a>
+			</div>
+		)
+	}
+}
+
 /*function App() {
   const [count, setCount] = useState(0)
 
@@ -99,5 +121,6 @@ class Theme extends React.Component {
 */
 export {
     UI,
-	Theme
+	Theme,
+	Github,
 }
