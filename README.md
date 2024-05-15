@@ -2,7 +2,7 @@
 
 This work was done by me for a frontend development course project.
 
-Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
+[![CC BY 4.0][cc-by-shield]][cc-by]
 
 ## License
 This work is licensed under a
