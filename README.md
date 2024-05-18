@@ -2,6 +2,9 @@
 
 This work was done by me for a frontend development course project.
 
+[Visit project live](https://focused-work-timer.vercel.app/)
+
+
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
 ## License
