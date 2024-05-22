@@ -18,14 +18,14 @@
 
 .bodylight {
 	background: #33CC36;
-	animation: light-color 9s infinite linear;
+	animation: light-color 7s infinite linear;
 	text-align: center;
 	padding: 2em;
 }
 
 .bodydark {
-	background: #33CC36;
-	animation: dark-color 9s infinite linear;
+	background: #207878;
+	animation: dark-color 7s infinite linear;
 	text-align: center;
 	padding: 2em;
 }
